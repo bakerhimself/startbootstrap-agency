@@ -747,7 +747,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" hidden>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
@@ -938,7 +938,7 @@
             </div>
         </section>
         <!-- Clients-->
-        <div class="py-5">
+        <div class="py-5" hidden>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
@@ -985,10 +985,28 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">
+                    <h3 class="section-subheading text-muted" hidden>
                         Lorem ipsum dolor sit amet consectetur.
                     </h3>
                 </div>
+                <div class="container">
+                    <div class="text-center">
+                        <div class="col-md-4">
+                            <h4 class="montserrat-text uppercase" style="color:#fff" style="margin-top:100px"><br/>
+                                <br/>
+                                <br/>
+                                Dammam</h4>
+                        <p style="color:#fff">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> Prince Mohammed Bin Fahd Rd.<br/>
+                                    Abdullah Fouad, Near Othaim Mall <br/>
+                                    <i class="fa fa-inbox" aria-hidden="true"></i> P.O.Box 5599 Dammam, 31432<br/>
+                                    <i class="fa fa-phone" aria-hidden="true"></i> Phone: 013/8085186 <br/>
+                                    <i class="fa fa-fax" aria-hidden="true"></i> Fax: 013/8271668<br/>
+                                <div style="color:#fff"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:abdullah@bakodah.com.sa" class="link" style="color:#fff"> abdullah@bakodah.com.sa</a></div>
+                            </p>
+                </div>
+                    </div>
+
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
                 <!-- * * * * * * * * * * * * * * *-->
@@ -996,7 +1014,11 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form
+                    id="contactForm"
+                    data-sb-form-api-token="API_TOKEN"
+                    hidden
+                >
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
