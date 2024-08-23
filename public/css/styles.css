@@ -1166,7 +1166,6 @@ progress {
     .col-md-4 {
         flex: 0 0 auto;
         width: 33.33333333%;
-        text-align: justify;
     }
     .col-md-5 {
         flex: 0 0 auto;
@@ -1308,7 +1307,6 @@ progress {
     .row-cols-lg-4 > * {
         flex: 0 0 auto;
         width: 25%;
-        text-align: justify;
     }
     .row-cols-lg-5 > * {
         flex: 0 0 auto;
@@ -8438,6 +8436,7 @@ fieldset:disabled .btn {
 .text-muted {
     --bs-text-opacity: 1;
     color: #6c757d !important;
+    text-align: justify;
 }
 
 .text-black-50 {
