@@ -8439,6 +8439,7 @@ fieldset:disabled .btn {
     --bs-text-opacity: 1;
     color: #6c757d !important;
     text-align: justify;
+    font-family: "Droid Arabic Kufi";
 }
 
 .text-black-50 {
