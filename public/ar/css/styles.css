@@ -65,9 +65,9 @@
         rgba(255, 255, 255, 0.15),
         rgba(255, 255, 255, 0)
     );
-    --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont,
-        Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
-        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-family: "Droid Arabic Kufi", Roboto Slab, -apple-system,
+        BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif,
+        Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
